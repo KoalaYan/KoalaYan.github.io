@@ -1,5 +1,9 @@
-_site/
-.sass-cache/
+_site
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
-gitbook_source_code/node_modules
-gitbook_source_code/_book
+
+Gemfile.lock
+*.gem
+
+.DS_Store

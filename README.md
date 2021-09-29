@@ -1,92 +1,79 @@
-# Jekyll For Everyone
+# Cover Card landing page theme
 
-Jekyll For Everyone is a package that is designed for everyone. The package contains three major components: homepage, CV, and [Gitbook](http://www.gitbook.com). The index page is a strip down version of [Jekyll Uno](https://github.com/joshgerdes/jekyll-uno) while the CV a modification of [Online CV](https://github.com/sharu725/online-cv). However, [Legacy Gitbook (v3.2.3)](https://github.com/GitbookIO/gitbook) is used instead of modern Gitbook (v4+). The main reason of using it is due to the fact that users can own their source code and edit them locally instead of doing it on the cloud. 
+## Quick set-up
 
-This package is very user friendly for non-programmer as I reorganized all the files and have all the variables written in several data files. This make it them to edit without needing to go into the actual code. 
+1. [Use this template](https://github.com/epidrome/cover-card/generate)
+2. Edit the `_config.yml` with your online presence accounts and upload a background and an avatar image
+3. Go to `Settings`, scroll down to `Github Pages` and find your new home page link
 
-Big thanks to the theme creator as it this project would not be possible without their hard work! You are always welcome to contribute to this repository to make it better!
+## Dependencies
 
-**Story Behind The Project**
+This theme is based on [jekyll](https://jekyllrb.com/) and [jekyll-remote-theme](https://github.com/benbalter/jekyll-remote-theme). The above dependencies are natively supported by [Github Pages](https://pages.github.com/), which will build and deploy your site as soon as you make any change to your files. The theme is also based on the icons from [Font Awesome](https://fontawesome.com/). 
 
-The main purpose of this project is to allow everyone especially for non-programmer to own a website and platform to share their expertise without needing to worry about the cost of owning and maintaining their website. I heard from a lot of readers mentioning that they are in love with the simplicity of my website especially and would love to one one. They only reason that stops them from doing it is they do not have any programming experience and not a tech savvy. With that, this motivates me to write a complete tutorial on how to get started with [Jekyll](http://melvinchng.github.io/jekyll). 
+## Motivation
 
-Also, as a fresh graduate, I see the importance of owning a personal website when it comes to job hunting. If you love this project and would like to support it, spread the message and keep the footer as in. 
+Create a cover page for your social media profiles, host it for free on Github Pages, and maintain it in minutes, not hours. 
 
-**Example Site**
-- My Personal Website
-  - [Melvin's landing page](https://melvinchng.github.io)
-  - [Melvin's CV](https://melvinchng.github.io/cv)
-  - [Melvin's Ruby on Rails Tuturial](https://melvinchng.github.io/rails)
-- Jekyll For Everyone Sample Website
-  - [Landing page](https://jekyll-for-everyone.github.io)
-  - [CV](https://jekyll-for-everyone.github.io/cv)
-  - [Gitbook](https://melvinchng.github.io/gitbook)
+I understand that a jekyll theme without a blog might sound like a self contradiction, but jekyll has also motivated something even more useful than itself: seamless hosting with Github Pages. 
 
-_Note: The content in `jekyll-for-everyone` is for illustration purpose only. It may not contain accurate information._
+This theme takes advantage of both jekyll and Github Pages, in order to create something similar to [linktree](https://linktr.ee), [about.me](https://about.me/) and [carrd](https://carrd.co), but without the price tag.
 
-## Features
-### Index Page
-- Name
-- Title Line
-- Secondary Information Line
-- Links to social pages
-- Links to other pages
-### CV
-- Summary or Background
-- Education
-- Experiences
-- Individual Projects
-- Group Projects
-- Skill & Proficiency
-- Related Courses
-- Honors & Awards
-- Languages
-- Social Link
-- Volunteer Experiences
-### Gitbook
-- Sample Gitbook
+In addition to the link at the top, here is one more [demo from my home page](https://github.com/epidrome/home).
 
-## Installation
-### If you do not know what you are doing
-1. Refer to my [guide](http://melvinchng.github.io/jekyll). It contains single instructions that you need to follow to get started.
-### If you know what you are doing or somewhat know what to do
-**Jekyll**
-1. For first time user, you have to install Ruby and Rails. If you do not have Ruby installed, you may follow [this tutorial](http://melvinchng.github.io/rails/RubyOnRailsInstallation.html) that I wrote for Windows, Linux, and MacOS (installation videos are included).
-2. Install Jekyll by using the command `gem install jekyll`.
-3. Then, install Jekyll Sitemap and Jekyll SEO gems by using the command `gem install jekyll-sitemap` and `gem install wdm`.
-4. Start your localhost server by using the command `jekyll serve`. Make sure that you are at the root directory of your folder before using this command.
-5. Your site should be accessible at `localhost:4000`.
-6. For additional information about Jekyll, refer to the [official website](http://jekyllrb.com/). 
+This theme is ideal for people or organizations who are busy enjoying their life or business and who want a simple business card for their online presence.
 
-**Gitbook**
-1. For first time user, you have to Gitbook modules by using the command `npm install gitbook-cli -g`.
-2. Navigate to the root directory of the gitbook, `gitbook_source_code` and start the gitbook server using the command `gitbook serve`. 
-3. If there are missing some packages for gitbook, use the command `gitbook install`.
-4. Your site should be accessible at `localhost:4000`.
-5. For additional information about Gitbook, refer to the [official website](https://github.com/GitbookIO/gitbook). 
+Please keep this README file because it contains the credits at the end and it might become handy after you have completely forgoten the set-up instructions.
 
-## How To Use
-### Index Page
-- The stylesheet, scripts, javascript for the index pages are stored at `/index_style/`.
-- The background picture for index page, named as `background-cover.jpg` can be found and replaced at `index_style/images`.
-- The profile picture for index page and cv page, named as `profile.png` can be found and replaced at `assets/images`.
-- All the data that shown in the index page are stored in `/_data/index_page.yml`. Replace all the content in the files.
+## Design rationale
 
-### CV
-- The stylesheet, scripts, javascript for the cv pages are stored at `/assets/`.
-- All the data that shown in the cv are stored in `/_data/cv_NAME.yml`. Replace all the content in the files.
-- If you would like to remove a specific section in the cv, change the variable from `true` to `false` for the variable in `/_data/cv_enable_section.yml`.
+The design rationale of this theme is to do less than other themes: "Less is more"
 
-### Gitbook
-- If you are not going to use the Gitbook feature, remove the `gitbook` folder.
-- The source code is stored at `/gitbook_source_code`
-- The content of generated book is coped from `/gitbook_source_code/_book` to `/gitbook`.
+The majority (99%) of the availabe jekyll themes offers a blog, but I have never been able to keep blog content (or its technology) updated over time.
 
-### Other
-- If you would like to replace the website icon, you can use [this](https://favicon.io/) website to create one and replace the downloaded icon at `favicon.io`.
-- Update the variable in `/_config.yml`. Remember to replace the `url` variable with your actual URL.
-- If you would like to use Google Analytics, add your tracking number to `/_config.yml`.
+Let's be honest with ourselves: How does an (abandoned) blog centered web site look to new visitors if we have not posted since two years ago?
 
-## Enjoy!
+## Make it yours
 
-As a reminder, if you love this project and would like to support it, spread the message and keep the footer as in. 
+[Fork this repository](https://github.com/epidrome/cover-card/fork) and edit the files to your liking: As a first step, you may want to replace the images and edit the `_config.yml` with your online profiles. You can test the result almost in real-time at the `Github Pages` section in the Settings tab (gh-pages branch).
+
+### Avatar or Logo
+
+The avatar image should be square and at least 200 pixels. Chances are that you have a selfie somewhere in your media storage. If you are making a page for a business or product, then use a logo.
+
+### Background image sets the mood
+
+There is no aspect ratio requirement for the background image, but it should be big enough for contemporary (desktop, tablet, phone) computer displays and dark enough in order to work for the white foreground text and icons.
+
+### Social profiles
+
+Edit the `_config.yml` file with your social media profiles by adding the respective account name, according to the documentation and comments inside that file. You can delete or comment out the social media that you don't need. Since v04, you can also control the order of your social media accounts. Moreover, you can add new media accounts and choose the icon.
+
+### Domain name
+
+Github Pages supports free custom domain names, so it is worth buying a domain name and fill it in `Custom domain` field at the settings. If you want to use the theme with you user page (ie. username.github.io), then delete (or rename) your `master branch` and rename your `gh-branch` to `master` [#13](https://github.com/epidrome/cover-card/issues/13)
+
+### Working example
+
+In addition to the configuration file in this repository, you can also [inspect a modified example of the legacy configuration file](https://github.com/epidrome/home/tree/0f333b28688a7a2e5eb84df768c277a03848d228), which is using the *legacy version* of the theme. Moreover, you can inspect a [custom (icons, links) example of the *current version*](https://github.com/epidrome/home).
+
+### Updates
+
+Please note that the theme is currently in beta, so some updates at the [master branch](https://github.com/epidrome/cover-card/tree/master) might break your site. Don't panic! 
+
+If you wish to keep your theme frozen and not receive updates, then you can [revert your remote_theme to the last known good configuration](https://github.com/benbalter/jekyll-remote-theme):
+
+> You may also optionally specify a branch, tag, or commit to use by appending an @ and the Git ref (e.g., epidrome/cover-card@v0.3). If you don't specify a Git ref, the master branch will be used.
+
+Please note that currently Github Pages seems to build your site only when you make a local change. This means that the theme might get updated but you will not receive the updated version unless you make a local change in your forked repository.
+
+You can always visit [releases](https://github.com/epidrome/cover-card/releases) for new features and check [issues](https://github.com/epidrome/cover-card/issues) for major bugs.
+
+### Expert options
+
+You can find and locally overide advanced options (e.g., font, image, and icon styles) for this theme in the documentation (readme) at the [master branch](https://github.com/epidrome/cover-card/tree/master).
+
+## Credits
+
+This page is based on the [cover-card jekyll remote theme](https://github.com/epidrome/cover-card/tree/master).
+
+Background photo by Anders Jildén and avatar photo by Ayo Ogunseinde, both on [Unsplash](https://unsplash.com/)
