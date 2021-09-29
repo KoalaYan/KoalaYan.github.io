@@ -12,13 +12,13 @@ favicon: 'favicon.ico'
 
 # Online profiles
 #dribbble: 'mydribbble'
-facebook: 'myfacebook'
+#facebook: 'myfacebook'
 twitter: 'mytwitter'
-#linkedin: 'mylinkedin'
-instagram: 'myinsta'
+linkedin: 'mylinkedin'
+#instagram: 'myinsta'
 #pinterest: 'mypinterest'
-youtube: 'myyoutube'
-github-user: 'mygithub'
+# youtube: 'myyoutube'
+github-user: 'KoalaYan'
 #gitlab-user: ''
 #codepen: ''
 #steam: ''
@@ -28,15 +28,15 @@ github-user: 'mygithub'
 #reddit: ''
 #rubygems: ''
 #medium:  ''
-tumblr: 'mytumblr'
-weibo: 'myweibo'
-vk: 'myvk'
-blog_url: 'myblog.blog.com'
-email: 'hello@example.com'
-messenger: 'myfbchat'
+#tumblr: 'mytumblr'
+#weibo: 'myweibo'
+#vk: 'myvk'
+#blog_url: 'myblog.blog.com'
+email: '1050335889@sjtu.edu.cn'
+#messenger: 'myfbchat'
 
-social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
-
+# social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
+social-links-order: [github-user, twitter, linkedin, weibo, blog_url, email]
 # Yaml manifest of supported social links
 # Requirements:
 # `name`
