@@ -4,11 +4,5 @@
 - name: English 
   level: Fluent
 
-- name: Malay 
-  level: Fluent
-  
-- name: Hokkien 
-  level: Fluent
-
-- name: Cantonese 
+- name: Korean 
   level: Beginner
