@@ -1,9 +1,9 @@
-- name: Algorithm and Complexity(Spring 2020)
-  grade: 99/100
-- name: Discrete Mathematics(Honor)(Fall 2019, 96/100)
-- name: Computer Graphics(Fall 2020, 96/100)
-- name: Computer Organization(Spring 2020, 94/100)
-- name: C++ Programming ideas and methods(Honor)(Fall 2018, 94/100)
-- name: Linear algebra(honor)(Fall 2018, 94/100)
-- name: Mathematical Analysis(Honor)(Fall 2018, 91/100)
-- name: Data Structure(Honor)(Spring 2019, 90/100)
+# - name: Algorithm and Complexity(Spring 2020)
+#   grade: 99/100
+# - name: Discrete Mathematics(Honor)(Fall 2019, 96/100)
+# - name: Computer Graphics(Fall 2020, 96/100)
+# - name: Computer Organization(Spring 2020, 94/100)
+# - name: C++ Programming ideas and methods(Honor)(Fall 2018, 94/100)
+# - name: Linear algebra(honor)(Fall 2018, 94/100)
+# - name: Mathematical Analysis(Honor)(Fall 2018, 91/100)
+# - name: Data Structure(Honor)(Spring 2019, 90/100)
