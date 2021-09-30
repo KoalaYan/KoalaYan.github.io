@@ -1,5 +1,5 @@
 awards: true
-# courses: false
+courses: false
 experiences: true
 group_projects: true
 individual_projects: false
@@ -8,4 +8,4 @@ languages: true
 profiles: true
 skills: true
 volunteers: true
-related_courses: false
+# related_courses: false
