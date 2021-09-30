@@ -1,5 +1,18 @@
-- title: Sample Group Project 1
-  link: http://www.google.com
-  time: Dec 2016 - Dec 2017
-  company: Student at You Don't Care University
-  info: Additional information about project.
+- title: Greedy-based Dynamic Programming Algorithm
+  link: https://github.com/KoalaYan/CS214-Project
+  time: February 2020 - June 2020
+  company: Algorithm and Complexity
+  info: An effective solution to ODRP Problems
+
+- title: Misaka Network
+  link: Null
+  time: February 2021 - June 2021
+  company: Software Engineering
+  info: P2P privacy and secure communication software based on blockchain technology. Due to national legal requirements, this repo is temporarily unavailable.
+
+
+- title: Alpha Protein
+  link: https://github.com/Galaxies99/alpha-protein
+  time: February 2021 - June 2021
+  company: Science and Technology Innovation (Part 3-E)
+  info: Protein Contact-map Prediction Boosted by Attention
