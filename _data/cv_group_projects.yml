@@ -16,3 +16,9 @@
   time: February 2021 - June 2021
   company: Science and Technology Innovation (Part 3-E)
   info: Protein Contact-map Prediction Boosted by Attention
+
+- title: Inception-v3 Inference Booster
+  link: https://github.com/Galaxies99/inception-cuda
+  time: November 2021 - December 2021
+  company: Parallel and Distributed Computing
+  info: An inference booster of the InceptionV3 model
