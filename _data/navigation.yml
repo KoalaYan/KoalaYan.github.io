@@ -1,0 +1,16 @@
+# main links links
+main:
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Services"
+    url: /services/    
+
+  - title: "Awards"
+    url: /awards/    
+
+  - title: "CV"
+    url: /files/resume-2508.pdf
+
+  # - title: "Story"
+  #   url: /story/

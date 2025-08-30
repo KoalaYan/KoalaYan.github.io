@@ -1,0 +1,32 @@
+# Your Website Title
+title: Peishen Yan
+
+# Your Website URL
+url: 'http://KoalaYan.github.io'
+
+# Leave it default
+baseurl: '' 
+
+# Google Analytics
+ga_index: UA-XXXXXXXX-X
+ga_cv: UA-XXXXXXXX-X
+
+# Index page and Profile Information
+name: Peishen Yan
+tagline: I'm an interesting koala.
+pic: profile.jpg # profile.png can be found at /assets/images/profile.png
+description: A young and naive student
+description_tiny: 'Address: SEIEE 3-D309, Minhang | QQ: 1050335889'
+email: tzypskoala@gmail.com
+website: KoalaYan.github.io # do not add http://
+linkedin: 培深-颜-6180401b4
+github: KoalaYan
+# twitter: '@PeishenYan'
+
+# Files or folders to be excluded
+# exclude: [gitbook_source_code/]
+
+# All the plugins for Jekyll
+plugins:
+  - jekyll-sitemap
+  - wdm
