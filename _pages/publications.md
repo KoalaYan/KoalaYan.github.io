@@ -17,7 +17,7 @@ author_profile: true
 
 
 **ICCV 2025**  
-[Stealthy Backdoor Attack in Federated Learning via Adaptive Layer-wise Gradient Alignment](https://KoalaYan.github.io/)  
+[Stealthy Backdoor Attack in Federated Learning via Adaptive Layer-wise Gradient Alignment](https://openaccess.thecvf.com/content/ICCV2025/papers/Yang_Stealthy_Backdoor_Attack_in_Federated_Learning_via_Adaptive_Layer-wise_Gradient_ICCV_2025_paper.pdf)  
 Qingqian Yang, <u>Peishen Yan</u>, Xiaoyu Wu, Jiaru Zhang, Tao Song, Yang Hua, Hao Wang, Liangliang Wang, Haibing Guan  
 *International Conference on Computer Vision (ICCV)*
 
