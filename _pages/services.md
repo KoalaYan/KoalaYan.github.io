@@ -14,3 +14,5 @@ author_profile: true
 
 IEEE Transactions on Parallel and Distributed Systems **(TPDS)**, Reviewer
 
+IEEE Transactions on Neural Networks and Learning Systems **(TNNLS)**, Reviewer
+
