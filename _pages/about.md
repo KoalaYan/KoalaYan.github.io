@@ -16,7 +16,7 @@ redirect_from:
 * My research interests lie in robustness, efficiency, and practical deployment of federated learning systems, with applications to Web 3.0 and large language models. 
 
 # News
-
+* **January 2026 \[Paper\]** [*ZK-VSA: Zero-Knowledge Verifiable Speaker Anonymization Leveraging Phase Vocoder with Time-scale Modification*](https://2026.ieeeicassp.org) accepted by [ICASSP 2026](https://2026.ieeeicassp.org)  
 * **June 2025 \[Paper\]** [*Stealthy Backdoor Attack in Federated Learning via Adaptive Layer-wise Gradient Alignment*](https://openaccess.thecvf.com/content/ICCV2025/papers/Yang_Stealthy_Backdoor_Attack_in_Federated_Learning_via_Adaptive_Layer-wise_Gradient_ICCV_2025_paper.pdf) accepted by [ICCV 2025](https://iccv.thecvf.com/Conferences/2025)  
 * **July 2024 \[Paper\]** [*SkyMask: Attack-Agnostic Robust Federated Learning with Fine-Grained Learnable Masks*](https://arxiv.org/pdf/2312.12484) accepted by [ECCV 2024](https://eccv.ecva.net/Conferences/2024)  
 * **June 2024 \[Paper\]** [*OFL-W3: A One-shot Federated Learning System on Web 3.0*](https://arxiv.org/pdf/2408.07096) accepted by [VLDB 2024](https://vldb.org/2024/)  

@@ -15,6 +15,10 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
 
+**ICASSP 2026**  
+[ZK-VSA: Zero-Knowledge Verifiable Speaker Anonymization Leveraging Phase Vocoder with Time-scale Modification](https://2026.ieeeicassp.org)
+Shuang Liang, Yang Hua, <u>Peishen Yan</u>, Linshan Jiang, Tao Song, Bin Yao, Haibing Guan
+*IEEE International Conference on Acoustics, Speech & Signal Processing (ICASSP)*
 
 **ICCV 2025**  
 [Stealthy Backdoor Attack in Federated Learning via Adaptive Layer-wise Gradient Alignment](https://openaccess.thecvf.com/content/ICCV2025/papers/Yang_Stealthy_Backdoor_Attack_in_Federated_Learning_via_Adaptive_Layer-wise_Gradient_ICCV_2025_paper.pdf)  
