@@ -15,6 +15,11 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
 
+**IWQoS 2026**  
+[FedCod: An Efficient Communication Protocol for Cross-Silo Federated Learning with Coding](https://arxiv.org/abs/2501.00216)  
+<u>Peishen Yan</u>, Jun Li, Hao Wang, Tao Song, Yang Hua, Lu Peng, Haihui Zhou, Haibing Guan  
+*IEEE/ACM International Symposium on Quality of Service (IWQoS)*
+
 **ICASSP 2026**  
 [ZK-VSA: Zero-Knowledge Verifiable Speaker Anonymization Leveraging Phase Vocoder with Time-scale Modification](https://2026.ieeeicassp.org)
 Shuang Liang, Yang Hua, <u>Peishen Yan</u>, Linshan Jiang, Tao Song, Bin Yao, Haibing Guan
@@ -34,8 +39,3 @@ Qingqian Yang, <u>Peishen Yan</u>, Xiaoyu Wu, Jiaru Zhang, Tao Song, Yang Hua, H
 [OFL-W3: A One-shot Federated Learning System on Web 3.0](https://arxiv.org/pdf/2408.07096)  
 Linshan Jiang, Moming Duan, Bingsheng He, Yulin Sun, <u>Peishen Yan</u>, Yang Hua, Tao Song  
 *Proceedings of the VLDB Endowment, 2024, 17(12): 4461-4464.*
-
-**arXiv preprint 2024**  
-[FedCod: An Efficient Communication Protocol for Cross-Silo Federated Learning with Coding](https://arxiv.org/abs/2501.00216)  
-<u>Peishen Yan</u>, Jun Li, Hao Wang, Tao Song, Yang Hua, Lu Peng, Haihui Zhou, Haibing Guan  
-*arXiv preprint arXiv:2501.00216, 2024.*
